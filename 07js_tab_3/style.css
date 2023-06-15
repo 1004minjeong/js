@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.tablink{
+    float: left;
+    width: 25%;
+    font-size: 17px;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+}
+.tablink:hover{
+    background-color: #777;
+}
+
+.tabcontent{
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
+
+#london{
+    background-color: red;
+}
+#paris{
+    background-color: green;
+}
+#tokyo{
+    background-color: blue;
+}
+#oslo{
+    background-color: orange;
+}

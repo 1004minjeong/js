@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideshow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="slideshow-container" id="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/04/l5pK4G3SPIlsK5xihKEfTW4yca8Zda0C_1100.jpg" alt="이미지">
+            <div class="text">엘리멘탈1</div>
+        </div><!-- mySlides fade end1 -->
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/04/TTxitbx8dKCfydLjJfTqYXDuiHFsnXj3_1100.jpg" alt="이미지">
+            <div class="text">엘리멘탈2</div>
+        </div><!-- mySlides fade end2 -->
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://img.megabox.co.kr/SharedImg/2023/05/04/uAtk7i4eoepxpmKP6KuakBNIyzGjHWuN_1100.jpg" alt="이미지">
+            <div class="text">엘리멘탈3</div>
+        </div><!-- mySlides fade end3 -->
+
+        <a href="#" class="prev" onclick="plusSlides(-1)"><i class="fas fa-caret-left"></i></a>
+        <a href="#" class="next" onclick="plusSlides(1)"><i class="fas fa-caret-right"></i></a>
+    </div><!-- slideshow-container end -->
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

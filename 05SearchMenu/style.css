@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+.search_menu{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+.search_menu .left{
+    width: 35%;
+    background-color: #bbb;
+    padding: 15px 0;
+}
+.search_menu .right{
+    width: 65%;
+    background-color: #ddd;
+    padding: 15px;
+}
+
+#mysearch{
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+}
+
+#mymenu li a{
+    padding: 12px;
+    display: block;
+}
+#mymenu li a:hover{
+    background-color: #eee;
+}

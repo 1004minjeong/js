@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;}
+
+
+h2{}
+.tab_wrap{
+    width: 500px;
+    margin: 0 auto;
+}
+.tab{
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+.tab button{
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+.tab button:hover{
+    background-color: #ddd;
+}
+.tabcontent{
+    display: none;
+    position: relative;
+    padding: 6px 12px; 
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tabcontent .topright{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.tabcontent h3{}
+.tabcontent p{}
