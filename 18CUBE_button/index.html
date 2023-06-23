@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="wrapper">
+            <div class="box-area">
+                <div class="box box-front">
+                    <h2>1</h2>
+                </div>
+                <div class="box box-right">
+                    <h2>2</h2>
+                </div>
+                <div class="box box-back">
+                    <h2>3</h2>
+                </div>
+                <div class="box box-left">
+                    <h2>4</h2>
+                </div>
+                <div class="box box-top">
+                    <h2>5</h2>
+                </div>
+                <div class="box box-bottom">
+                    <h2>6</h2>
+                </div>
+            </div>
+            <div class="rotate-x-button">
+                <button class="rotate-x-bottom" onClick="rotateXaxis(-1)"><i class="fas fa-caret-down"></i></button>
+                <button class="rotate-x-top" onClick="rotateXaxis(1)"><i class="fas fa-caret-up"></i></button>
+            </div>
+            <div class="rotate-y-button">
+                <button class="rotate-y-bottom" onClick="rotateYaxis(-1)"><i class="fas fa-caret-left"></i></button>
+                <button class="rotate-y-top" onClick="rotateYaxis(1)"><i class="fas fa-caret-right"></i></button>
+            </div>
+            <div class="front" onClick="front()">정면</div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
