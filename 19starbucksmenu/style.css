@@ -121,6 +121,7 @@ h1 a {
   left: 0;
   right: 0;
   justify-content: flex-start;
+  display: none;
 
 }
 
