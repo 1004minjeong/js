@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+
+
+
+    <script>
+        //canvas요소 가져오기
+        let canvas = document.getElementById('myCanvas'); //canvas사용시필수적
+        let context = canvas.getContext('2d'); //canvas사용시필수적
+
+
+        //이미지생성
+        //let image=new Image();//이미지태그만들기 방법1
+        let image=document.createElement('img')//이미지태그만들기 방법2
+        image.src='https://i.pinimg.com/564x/bc/3a/da/bc3ada19b62e029626f7add2c4297603.jpg';
+
+        //context.drwaImage(image,x,y,넓이width,높이height)//(image,x지점,y지점)
+        context.drawImage(image,0,0,400,400)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>27예제</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+
+    <script>
+        let box = document.querySelector('.box')
+
+
+        //box.animate([배열],{객체})
+        //box.animate([keyframes],{options})
+        box.animate([{
+                transform: 'translateX(0)',
+                opacity: 0
+            }, //0초
+            {
+                transform: 'translateX(-50px)',
+                opacity: 1,
+                offset: 0.6
+            }, //1초(offset은 keyframe에서 %)
+            {
+                transform: 'translateX(200px)',
+                opacity: 0.5
+            } //2초
+        ], {
+            duration: 1000,
+            easing: 'linear',
+            fill: 'forwards',
+            iterations: Infinity,
+            direction: 'alternate'
+        })
+
+
+
+
+        // Animation-duration--> dutation
+        // Animation-delay--> delay
+        // Animation-direction--> direction(css alternate)
+        // fill-mode-->fill
+        // timing-function --> easing
+        // interation-count-->interation
+    </script>
+</body>
+
+</html>
