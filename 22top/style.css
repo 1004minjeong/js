@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.moniter {
+    position: relative;
+    left: 30%;
+    top: 50%;
+    background-image: url(KakaoTalk_20230609_111224778.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 580px;
+
+}
+
+.moniter_wrap {
+    position: absolute;
+    left: 60.7%;
+    top: 39%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+    height: 31%;
+    background: url(screen.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: 3s;
+    border-radius: 2px;
+}
+
+.moniter_wrap:hover {
+    background-position: bottom;
+}
